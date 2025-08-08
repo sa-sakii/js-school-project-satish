@@ -5,40 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataArt JavaScript School Timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>DataArt JavaScript School Timeline 2025</h1>
-        <figure>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/DataArt%27s_Logo.png" alt="logo image not found" style="width: 325px;"/>
-        </figure>
-        <div>
+        <div class="logo-box">
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/DataArt%27s_Logo.png"
+                    alt="logo image not found" style="width: 255px;" />
+            </figure>
+            <h1>JavaScript School Timeline 2025</h1>
+        </div>
+        <div class="theme-toggle-box">
             Theme Toggle:
             <input type="checkbox" name="">
         </div>
     </header>
-    <nav>
-        <p>timeline of all the tasks</p>
-        <a href="">Task 1</a>
-        <a href="">Task 2</a>
-        <a href="">Task 3</a>
-        <a href="">Task 4</a>
-        <a href="">Task 5</a>
-        <a href="">Task 6</a>
-    </nav>
-    <main>
-        <section id="timeline">
+    <section class="body-section">
+        <p>Timeline of The Tasks</p>
+        <nav>
+            <a href="">Task 1</a>
+            <a href="">Task 2</a>
+            <a href="">Task 3</a>
+            <a href="">Task 4</a>
+            <a href="">Task 5</a>
+            <a href="">Task 6</a>
+        </nav>
+        <main>
+            <section class="content-tasks content-task1">
+                <h2>Webinar 1. HTML. The Foundations of Web Design</h2>
+                <p class="date-box"><i>Date and Time: <b>5 August 2025, 18:30 IST</b></i></p>
+                <div class="content-details">
+                    <div class="description-box">
+                        <h3>Description</h3>
+                        <p>
+                            This session introduces the core principles of web page structure using HTML. Participants
+                            will
+                            learn how to build clean, well-organized documents, utilize semantic HTML5 elements, and
+                            understand the importance of accessible and meaningful markup.
+                        </p>
+                    </div>
+                    <div class="key-topics-box">
+                        <p>Key Topics:</p>
+                        <ul>
+                            <li>HTML5 elements and semantic tags</li>
+                            <li>Document structure and hierarchy</li>
+                            <li>Forms and input elements</li>
+                            <li>Accessibility basics</li>
+                            <li>Linking and navigation</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="content-task2">
+                <h2>Webinar 2. CSS and Preprocessors</h2>
+                <p><i>Date and Time: <b>7 August 2025, 18:30 IST</b></i></p>
+                <div>
+                    <h3>Description</h3>
+                    <p>
+                        This session covers the fundamentals of web page styling with CSS, focusing on modern layout
+                        techniques and the use of preprocessors for scalable, maintainable stylesheets. Participants
+                        will explore how to control page appearance, implement responsive designs, and streamline their
+                        workflow with CSS preprocessors.
+                    </p>
+                </div>
+                <div>
+                    <p>Key Topics:</p>
+                    <ul>
+                        <li>CSS selectors, properties, and values</li>
+                        <li>Flexbox and CSS Grid for responsive design</li>
+                        <li>Mobile-first design and media queries</li>
+                        <li>CSS variables</li>
+                        <li>Introduction to preprocessors</li>
+                        <li>Nesting, mixins, and variables in preprocessors</li>
+                    </ul>
+                </div>
+            </section> -->
+            <section id="timeline">
+                <p>
+                    <i><b>empty for now; event markers will come here</b></i>
+                </p>
+            </section>
+        </main>
+        <div id="modal">
             <p>
-                <i><b>empty for now; event markers will come here</b></i>
+                <i><b>empty for now; for future pop-up messages</b></i>
             </p>
-        </section>
-    </main>
-    <div id="modal">
-        <p>
-            <i><b>empty for now; for future pop-up messages</b></i>
-        </p>
-    </div>
+        </div>
+    </section>
     <footer>
         <address>Bengaluru, Yelahanka 64</address>
     </footer>
