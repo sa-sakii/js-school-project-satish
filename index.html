@@ -28,80 +28,83 @@
         </div>
     </header>
     <section class="body-section">
-        <p>Timeline of The Tasks</p>
+        <p>Timeline of The Course</p>
         <nav>
-            <a href="">Task 1</a>
-            <a href="">Task 2</a>
-            <a href="">Task 3</a>
-            <a href="">Task 4</a>
-            <a href="">Task 5</a>
-            <a href="">Task 6</a>
-        </nav>
+            <a href="#" data-task="1">Aug 5</a>
+            <a href="#" data-task="2">Aug 7</a>
+            <a href="#" data-task="3">Aug 12</a>
+            <a href="#" data-task="4">Aug 14</a>
+            <a href="#" data-task="5">Aug 19</a>
+            <a href="#" data-task="6">Aug 21</a>
+        </nav> 
         <main>
-            <section class="content-tasks content-task1">
-                <h2>Webinar 1. HTML. The Foundations of Web Design</h2>
-                <p class="date-box"><i>Date and Time: <b>5 August 2025, 18:30 IST</b></i></p>
-                <div class="content-details">
-                    <div class="description-box">
-                        <h3>Description</h3>
-                        <p>
-                            This session introduces the core principles of web page structure using HTML. Participants
-                            will
-                            learn how to build clean, well-organized documents, utilize semantic HTML5 elements, and
-                            understand the importance of accessible and meaningful markup.
-                        </p>
-                    </div>
-                    <div class="key-topics-box">
-                        <p>Key Topics:</p>
-                        <ul>
-                            <li>HTML5 elements and semantic tags</li>
-                            <li>Document structure and hierarchy</li>
-                            <li>Forms and input elements</li>
-                            <li>Accessibility basics</li>
-                            <li>Linking and navigation</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <!-- <section class="content-task2">
-                <h2>Webinar 2. CSS and Preprocessors</h2>
-                <p><i>Date and Time: <b>7 August 2025, 18:30 IST</b></i></p>
-                <div>
-                    <h3>Description</h3>
-                    <p>
-                        This session covers the fundamentals of web page styling with CSS, focusing on modern layout
-                        techniques and the use of preprocessors for scalable, maintainable stylesheets. Participants
-                        will explore how to control page appearance, implement responsive designs, and streamline their
-                        workflow with CSS preprocessors.
-                    </p>
-                </div>
-                <div>
-                    <p>Key Topics:</p>
-                    <ul>
-                        <li>CSS selectors, properties, and values</li>
-                        <li>Flexbox and CSS Grid for responsive design</li>
-                        <li>Mobile-first design and media queries</li>
-                        <li>CSS variables</li>
-                        <li>Introduction to preprocessors</li>
-                        <li>Nesting, mixins, and variables in preprocessors</li>
-                    </ul>
-                </div>
-            </section> -->
-            <section id="timeline">
+            <div id="timeline">
                 <p>
                     <i><b>empty for now; event markers will come here</b></i>
                 </p>
-            </section>
+            </div>
         </main>
-        <div id="modal">
-            <p>
-                <i><b>empty for now; for future pop-up messages</b></i>
-            </p>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="modal-close" class="close">x</button>
+                <div id="modal-body"></div>
+            </div>
         </div>
     </section>
     <footer>
         <address>Bengaluru, Yelahanka 64</address>
     </footer>
+    <script src="./script.js"></script>
 </body>
+
+<!-- <section class="content-tasks content-task1">
+                        <h2>Webinar 1. HTML. The Foundations of Web Design</h2>
+                        <p class="date-box"><i>Date and Time: <b>5 August 2025, 18:30 IST</b></i></p>
+                        <div class="content-details">
+                            <div class="description-box">
+                                <h3>Description</h3>
+                                <p>
+                                    This session introduces the core principles of web page structure using HTML. Participants
+                                    will
+                                    learn how to build clean, well-organized documents, utilize semantic HTML5 elements, and
+                                    understand the importance of accessible and meaningful markup.
+                                </p>
+                            </div>
+                            <div class="key-topics-box">
+                                <p>Key Topics:</p>
+                                <ul>
+                                    <li>HTML5 elements and semantic tags</li>
+                                    <li>Document structure and hierarchy</li>
+                                    <li>Forms and input elements</li>
+                                    <li>Accessibility basics</li>
+                                    <li>Linking and navigation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+<!-- <section class="content-task2">
+                        <h2>Webinar 2. CSS and Preprocessors</h2>
+                        <p><i>Date and Time: <b>7 August 2025, 18:30 IST</b></i></p>
+                        <div>
+                            <h3>Description</h3>
+                            <p>
+                                This session covers the fundamentals of web page styling with CSS, focusing on modern layout
+                                techniques and the use of preprocessors for scalable, maintainable stylesheets. Participants
+                                will explore how to control page appearance, implement responsive designs, and streamline their
+                                workflow with CSS preprocessors.
+                            </p>
+                        </div>
+                        <div>
+                            <p>Key Topics:</p>
+                            <ul>
+                                <li>CSS selectors, properties, and values</li>
+                                <li>Flexbox and CSS Grid for responsive design</li>
+                                <li>Mobile-first design and media queries</li>
+                                <li>CSS variables</li>
+                                <li>Introduction to preprocessors</li>
+                                <li>Nesting, mixins, and variables in preprocessors</li>
+                            </ul>
+                        </div>
+                    </section> -->
 
 </html>

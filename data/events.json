@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Webinar 1. HTML. The Foundations of Web Design",
+        "dateTime": "5 August 2025, 18:30 IST",
+        "description": "This session introduces the core principles of web page structure using HTML. Participants will learn how to build clean, well-organized documents, utilize semantic HTML5 elements, and understand the importance of accessible and meaningful markup.",
+        "keyTopics": [
+            "HTML5 elements and semantic tags",
+            "Document structure and hierarchy",
+            "Forms and input elements",
+            "Accessibility basics",
+            "Linking and navigation"
+        ],
+        "link": "zoom.com/123221"
+    },
+    {
+        "title": "Webinar 2. CSS and Preprocessors",
+        "dateTime": "7 August 2025, 18:30 IST",
+        "description": "This session covers the fundamentals of web page styling with CSS, focusing on modern layout techniques and the use of preprocessors for scalable, maintainable stylesheets. Participants will explore how to control page appearance, implement responsive designs, and streamline their workflow with CSS preprocessors.",
+        "keyTopics": [
+            "CSS selectors, properties, and values",
+            "Flexbox and CSS Grid for responsive design",
+            "Mobile-first design and media queries",
+            "CSS variables",
+            "Introduction to preprocessors",
+            "Nesting, mixins, and variables in preprocessors"
+        ], 
+        "link": "zoom.com/414121321"
+    },
+    {
+        "title": "Webinar 3. JavaScript Fundamentals. Dynamic Web Development",
+        "dateTime": "12 August 2025, 18:30 IST",
+        "description": "This session covers the essential concepts of JavaScript, the scripting language used to build dynamic, interactive web pages. Participants will explore the language syntax, data types, functions, and control structures. Emphasis will be placed on working with the DOM (Document Object Model) and manipulating web page elements programmatically.",
+        "keyTopics": [
+            "JavaScript variables, data types, and operators",
+            "Functions, loops, and conditionals",
+            "DOM manipulation and event handling ",
+            "Asynchronous JavaScript (Promises, async/await) "
+        ],
+        "link": "zoom.com/3212311321"
+    }
+]
