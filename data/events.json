@@ -10,7 +10,8 @@
             "Accessibility basics",
             "Linking and navigation"
         ],
-        "link": "zoom.com/123221"
+        "link": "zoom.com/123221",
+        "speaker":"Alexandr Lyssenko"
     },
     {
         "title": "Webinar 2. CSS and Preprocessors",
@@ -24,7 +25,8 @@
             "Introduction to preprocessors",
             "Nesting, mixins, and variables in preprocessors"
         ], 
-        "link": "zoom.com/414121321"
+        "link": "zoom.com/414121321",
+        "speaker": "Kateryna Khovrich"
     },
     {
         "title": "Webinar 3. JavaScript Fundamentals. Dynamic Web Development",
@@ -36,6 +38,7 @@
             "DOM manipulation and event handling ",
             "Asynchronous JavaScript (Promises, async/await) "
         ],
-        "link": "zoom.com/3212311321"
+        "link": "zoom.com/3212311321",
+        "speaker": "Ratan Singh"
     }
 ]
