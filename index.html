@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataArt JavaScript School Timeline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/DataArt%27s_Logo.png"
+                    alt="logo image not found" style="width: 255px;" />
+            </figure>
+            <h1>JavaScript School Timeline 2025</h1>
+        </div>
+        <div class="theme-toggle-box">
+            Theme Toggle:
+            <input type="checkbox" name="">
+        </div>
+    </header>
+    <section class="body-section">
+        <p>Timeline of The Course</p>
+        <nav>
+            <a href="#" data-task="1">Aug 5</a>
+            <a href="#" data-task="2">Aug 7</a>
+            <a href="#" data-task="3">Aug 12</a>
+            <a href="#" data-task="4">Aug 14</a>
+            <a href="#" data-task="5">Aug 19</a>
+            <a href="#" data-task="6">Aug 21</a>
+        </nav> 
+        <main>
+            <div id="timeline">
+                <p>
+                    <i><b>empty for now; event markers will come here</b></i>
+                </p>
+            </div>
+        </main>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <button id="modal-close" class="close">x</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <address>Bengaluru, Yelahanka 64</address>
+    </footer>
+    <script type="module" src="dist/main.js"></script>
+</body>
+</html>
