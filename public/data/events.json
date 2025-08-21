@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "title": "Webinar 1. HTML. The Foundations of Web Design",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "5 August",
+    "description": "This session introduces the core principles of web page structure using HTML. Participants will learn how to build clean, well-organized documents, utilize semantic HTML5 elements, and understand the importance of accessible and meaningful markup.",
+    "keyTopics": [
+      "HTML5 elements and semantic tags",
+      "Document structure and hierarchy",
+      "Forms and input elements",
+      "Accessibility basics",
+      "Linking and navigation"
+    ],
+    "link": "zoom.com/123221",
+    "speaker": "Alexandr Lyssenko"
+  },
+  {
+    "id": "2",
+    "title": "Webinar 2. CSS and Preprocessors",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "7 August",
+    "description": "This session covers the fundamentals of web page styling with CSS, focusing on modern layout techniques and the use of preprocessors for scalable, maintainable stylesheets. Participants will explore how to control page appearance, implement responsive designs, and streamline their workflow with CSS preprocessors.",
+    "keyTopics": [
+      "CSS selectors, properties, and values",
+      "Flexbox and CSS Grid for responsive design",
+      "Mobile-first design and media queries",
+      "CSS variables",
+      "Introduction to preprocessors",
+      "Nesting, mixins, and variables in preprocessors"
+    ],
+    "link": "zoom.com/414121321",
+    "speaker": "Kateryna Khovrich"
+  },
+  {
+    "id": "3",
+    "title": "Webinar 3. JavaScript Fundamentals. Dynamic Web Development",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "12 August",
+    "description": "This session covers the essential concepts of JavaScript, the scripting language used to build dynamic, interactive web pages. Participants will explore the language syntax, data types, functions, and control structures. Emphasis will be placed on working with the DOM (Document Object Model) and manipulating web page elements programmatically.",
+    "keyTopics": [
+      "JavaScript variables, data types, and operators",
+      "Functions, loops, and conditionals",
+      "DOM manipulation and event handling ",
+      "Asynchronous JavaScript (Promises, async/await) "
+    ],
+    "link": "zoom.com/3212311321",
+    "speaker": "Ratan Singh"
+  },
+  {
+    "id": "4",
+    "title": "Webinar 4. Typescript. Fundamentals",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "14 August",
+    "description": "In this session, participants will learn how TypeScript builds on JavaScript by adding a type system that catches mistakes before you hit runtime. They’ll start with essential basics - basic types, inference, and strict checking - then move into more advanced topics. Along the way they’ll explore type guards, generics, and the powerful utility types that make your code clearer, safer, and more maintainable",
+    "keyTopics": [
+      "Core types & inference (literal types, any, annotations)",
+      "Object shapes & collections (interfaces, type aliases, tuples)",
+      "Union & intersection types plus type guards",
+      "Generics & utility types (built-in helpers for transforming types)"
+    ],
+    "link": "zoom.com/781231",
+    "speaker": "Alexey Mikosha"
+  },
+  {
+    "id": "5",
+    "title": "Webinar 5. React. Building Dynamic User Interfaces",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "19 August",
+    "description": "This session introduces React, a popular JavaScript library for building user interfaces. Participants will learn how to create and manage React components, handle component state, and build interactive user interfaces using hooks and other modern React features.",
+    "keyTopics": [
+      "React component structure (functional and class components)",
+      "JSX syntax and rendering elements",
+      "Managing state with React hooks (useState, useEffect)", 
+      "React Router for routing in single-page applications"
+    ],
+    "link": "zoom.com/2909211",
+    "speaker": "Anna Lysenko"
+  },
+  {
+    "id": "6",
+    "title": "Webinar 6. Web Accessibility - Designing for Everyone",
+    "year": "2025",
+    "time": "18:30",
+    "timezone": "IST",
+    "date": "21 August",
+    "description": "The final session focuses on web accessibility, emphasizing the importance of making web applications usable by all individuals, including those with disabilities. Participants will learn best practices for creating accessible websites using semantic HTML, ARIA (Accessible Rich Internet Applications) attributes, and keyboard navigation.",
+    "keyTopics": [
+      "Web Content Accessibility Guidelines (WCAG)",
+      "Semantic HTML and ARIA attributes",
+      "Keyboard navigation and focus management",
+      "Testing for accessibility with browser tools"
+    ],
+    "link": "zoom.com/451222",
+    "speaker": "Eugene Melamud"
+  }
+]
