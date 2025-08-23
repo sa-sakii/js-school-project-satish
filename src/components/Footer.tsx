@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer>
+        <footer aria-label="page footer with address information">
             <address>Bengaluru, Yelahanka 64</address>
         </footer>
     );

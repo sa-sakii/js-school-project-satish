@@ -14,8 +14,8 @@ const EventModal = ({ event }: EventModalProps) => {
     }
 
     return (
-        <section className="content-tasks">
-            <h2>{event.title}</h2>
+        <section id="modal" className="content-tasks" role="dialog" aria-modal="true">
+            <h2 id={`modal-title-${event.id}`}>{event.title}</h2>
             <p className="date-box"><i>Date and Time: <b>{`${event.date}, ${event.time} ${event.timezone}`}</b></i></p>
             <div className="content-details">
                 <div className="description-box">
@@ -29,7 +29,7 @@ const EventModal = ({ event }: EventModalProps) => {
                     </ul>
                 </div>
             </div>
-            <button className="open-modal" data-task="${taskNumber}" onClick={onViewTasks}>{ !view ? "View tasks" : "Hide tasks" }</button>
+            <button className="open-modal" data-task="${taskNumber}" onClick={onViewTasks} aria-expanded={view}>{ !view ? "View tasks" : "Hide tasks" }</button>
             {
                 view && <EventMarker event={event} />
             }

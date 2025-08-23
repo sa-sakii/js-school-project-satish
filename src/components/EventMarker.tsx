@@ -6,11 +6,11 @@ interface EventMarkerProps {
 
 const EventMarker = ({ event }: EventMarkerProps) => {
     return (
-        <div>
+        <article role="region">
             <h2>{event.title}</h2>
             <p><i>by</i> {event.speaker}</p>
-            <p>join the session: <i>{event.link}</i></p>  
-        </div>
+            <p>join the session: <a href={event.link} target="_blank" aria-label={`Join session for ${event.title}`}>{event.link}</a></p>  
+        </article>
     )
 }
 

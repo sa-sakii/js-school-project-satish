@@ -9,11 +9,12 @@ const Timeline = ({ events, selected }: EventModalProps) => {
     return (
         <div className="body-section">
             <p>Timeline of The Course</p>
-            <nav>
+            <nav role="navigation" aria-label="course timeline">
                 {
                     events.map((event) => (
                         <a
                             key={event.date}
+                            href="#"
                             onClick={(e) => {
                                 e.preventDefault();
                                 selected(event);

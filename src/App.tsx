@@ -25,12 +25,14 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <>
       <Header />
-      <Timeline events={events} selected={setSelectedEvent} />
-      {selectedEvent && <EventModal event={selectedEvent}/>}
+      <main>
+        <Timeline events={events} selected={setSelectedEvent} />
+        {selectedEvent && <EventModal event={selectedEvent} />}
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
 
